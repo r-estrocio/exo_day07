@@ -3,17 +3,12 @@
 # etc..
 emails = []
 1.upto(50) do |i|
-  if i < 10
-    index = "0#{i}"
-  else
-    index = i.to_s
-  end
+  index = i
+  index = "0#{i}" if i < 10
   email = "jean.dupont.#{index}@email.fr"
   emails.push(email)
 end
 
-1.upto(50) do |i|
-  if i.even?
-    puts emails[i - 1]
-  end
+1.upto(emails.length) do |i|
+  puts emails[i - 1] if i.even?
 end
