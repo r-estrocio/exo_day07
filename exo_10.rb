@@ -12,7 +12,7 @@ while year <= year_now
     if age == 1
       puts "Cette année vous avez un an."
     else
-      puts "Cette année vous avez #{age} ans."
+      puts "Cette année vous allez avoir #{age} ans."
     end
   else
     if age == 1
