@@ -9,6 +9,5 @@ emails = []
     index = i.to_s
   end
   email = "jean.dupont.#{index}@email.fr"
-  emails.push(email)
 end
 puts emails
