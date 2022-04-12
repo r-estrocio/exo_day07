@@ -10,7 +10,7 @@ if number < 1
   number = 1
 end
 
-width = number * 2 - 1
+width = number * 2 - 1 #because it is always an even number
 
 puts "Voici la pyramide :"
 
