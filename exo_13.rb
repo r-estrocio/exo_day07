@@ -2,12 +2,11 @@
 # "jean.dupont.02@email.fr"
 # etc..
 emails = []
-50.times do |i|
-  n = i + 1
+1.upto(50) do |i|
   if i < 10
-    index = "0#{n}"
+    index = "0#{i}"
   else
-    index = n.to_s
+    index = i.to_s
   end
   email = "jean.dupont.#{index}@email.fr"
   emails.push(email)
