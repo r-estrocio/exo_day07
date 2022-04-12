@@ -27,7 +27,3 @@ while year <= year_now
   year = year + 1
   years = year_now - year
 end
-
-# birth_year.upto(year_now) do |i|
-#   puts i
-# end
